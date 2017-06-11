@@ -17,15 +17,19 @@ public class BitwiseAndLogicalAND {
 	public static void main(String[] args){
 		// TODO Auto-generated method stub
 
+		//Declaring variables 
+		
 		byte firstByte ;
 		byte secondByte ;
 		
 		
+		// Taking input from the user
 		Scanner scan =new Scanner(System.in);
 		System.out.println("Please enter two bytes(only 0 and 1 are allowed)");
 		firstByte=scan.nextByte();
 		secondByte=scan.nextByte();
 		scan.close();
+		//Calling the function to perform the BITWISE and LOGICAL operation
 		Cal(firstByte,secondByte);
 		
 			
